@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+
+.carousel-indicators{
+    background-color: rgb(49, 47, 47);
+    width: 20vw;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+.carousel-indicators button{
+    margin-left: 0.7vw !important;
+    margin-right: 0.7vw !important;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgb(49, 47, 47) !important;
+    border-radius: 8px;
+    height: 4vw;
+    width: 3vw;
+}
+.announcement-box{
+    position: absolute;
+    right: 10.5vw;
+    top: 3vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    width: 21vw;
+    height: 30vw;
+    border: 2px solid rgb(22, 211, 211);
+    border-radius: 10px;
+}
+.announcement-box h5,.announcement-box h6{
+    font-size: 1.3vw;
+    margin-bottom: 0;
+}
+.announcement-box .head, .announcement-box .content{
+    margin: 0.5vw;
+}
+.announcement-box .head{
+    background-color: rgb(1, 1, 202);
+    padding: 0.4vw;
+    border-radius: 5px;
+    height: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.announcement-box .content{
+    font-size: 1.5vw;
+    height: 25vw;
+    /* border: 2px solid blue; */
+    border-radius: 8px;
+}
+.announcement-box .head h5{
+    font-weight: 800;
+}
+.announcement-box .head h6{
+    color: rgb(226, 217, 217);
+    font-size: 1vw;
+}
+.announcement-box .head h6:hover{
+    color: white;
+}
+.announcement-box .head a{
+    text-decoration: none;
+}
+.announcement-box .content a{
+    text-decoration: none;
+    color: white;
+}
+.announcement-box .content a li{
+    width: 12.5vw;
+    height: 2vw;
+    box-sizing: border-box;
+}
+.announcement-box .content a li:hover{
+    text-decoration: underline 3px;
+    color: yellow;
+}
+.announcement-box .content ul{
+    padding-left: 15%;
+}
+.toppest-div{
+    padding: 0%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(255, 208, 0);
+}
+.toppest{
+    margin-right: 10px;
+    margin-bottom: 0%;
+}
+.toppest li{
+    display: inline-block;
+    list-style-type: none;
+}
+.toppest a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.toppest a:hover{
+    text-decoration: underline 2px;
+}
+.toppest-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1vw 2px;
+}
+.toppest-2 h2,h5,h6{
+    text-align: center;
+    font-size: 1vw;
+}
+.toppest-2 h2{
+    font-weight: 700;
+    font-size: 2vw;
+    color: rgb(196, 111, 8);
+}
+.navigation .navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+    background-color: rgb(236, 136, 14);
+}
+.navigation .navbar li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 1vw;
+    border-right: 1px solid black;
+    color: white;
+}
+.navigation .navbar li:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.buttons-msg{
+    display: flex;
+    overflow: auto;
+}
+.buttons-msg .buttons h4{
+    text-align: center;
+}
+.buttons-msg .buttons tr td:hover{
+    transform: scale(1.1);
+}
+.pmsg-box{
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin: 1vw;
+    padding: 0.5vw;
+    width: 40vw;
+    margin-left: 2vw;
+}
+.pmsg-box h4{
+    color: rgb(209, 136, 1);
+    font-weight: 600;
+}
+.pmsg-box img{
+    display: inline-block;
+    height: 20vw;
+    width: 22vw;
+    margin-left: 6vw;
+}
+.pmsg-box p{
+    text-align: justify;
+    padding: 2px;
+}
+.pmsg-box button{
+    background-color: rgb(209, 136, 1);
+    padding: 2px;
+}
+.gallery-head{
+    text-align: center;
+    color: rgb(214, 140, 3);
+    font-weight: 800;
+    padding: 10px 0px;
+}
+.img-gallery{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-gallery img{
+    height: 18vw;
+    width: 20vw;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.foot{
+    background-color: rgb(204, 133, 0);
+    padding: 30px;
+    margin-top: 10px;
+}
+.foot p{
+    text-align: center;
+    color: white;
+}
+.foot p a{
+    text-decoration: none;
+    color: white;
+}
+.foot p a:hover{
+    text-decoration: underline;
+}
+.foot-logo{
+    display: flex;
+    justify-content: center;
+}
+.foot-logo img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
