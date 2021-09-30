@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .carousel-indicators{
@@ -113,41 +115,103 @@
 }
 .toppest-2 h2,h5,h6{
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 .toppest-2 h2{
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 2.5vw;
     color: rgb(196, 111, 8);
 }
-.navigation .navbar{
+.navbar{
+    padding: 0;
+    background-color: rgb(169, 169, 255);
+    position: sticky !important;
+    top: 0px;
+}
+.navbar>ul{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 2px;
-    background-color: rgb(236, 136, 14);
 }
-.navigation .navbar li{
-    display: inline-block;
-    list-style-type: none;
-    padding-right: 1vw;
-    border-right: 1px solid black;
+.navbar ul{
+    list-style: none;
+    border: 1px solid black;
+    width: 97%;
+    margin: 0 auto;
+}
+.navbar li{
+    background-color: rgb(238, 176, 42);
     color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 100%;
+    padding-top: 8px;
 }
-.navigation .navbar li:hover{
-    transform: scale(1.1);
-    text-decoration: underline;
-    cursor: pointer;
+.navbar li:hover{
+    color: rgb(238, 176, 42);
+    background-color: whitesmoke;
 }
+.navbar ul{
+    padding-left: 0;
+}
+.navbar>ul>li{
+    border-left: 1px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.navbar ul li{
+    position: relative;
+}
+.navbar ul li ul{
+    display: none;
+}
+.navbar>ul>li:hover>ul{
+    width: 100% !important;
+}
+.navbar ul li:hover>ul{
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: fit-content;
+}
+.navbar ul li ul li{
+    color: rgb(75, 72, 72);
+    font-size: 15px;
+    padding: 5px;
+}
+.navbar ul li ul li:hover{
+    background-color: rgb(255, 255, 147);
+    color: black;
+}
+.navbar ul li ul li:hover>ul{
+    position: absolute;
+    left: 100%;
+    top: 0%;
+}
+.navbar li li{
+    background-color: white;
+    text-align: left;
+    width: 110%;
+}
+
 .buttons-msg{
     display: flex;
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.buttons td{
+    padding: 8px;
 }
 .buttons-msg .buttons h4{
-    text-align: center;
+    text-align: left;
+    font-size: 18px;
+    text-align: left;
+}
+.buttons-msg .buttons i{
+    font-size: 9vw;
+    padding: 5px;
 }
 .buttons-msg .buttons tr td:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .pmsg-box{
     border: 2px solid orange;
@@ -170,6 +234,7 @@
 .pmsg-box p{
     text-align: justify;
     padding: 2px;
+    font-size: 1.2vw;
 }
 .pmsg-box button{
     background-color: rgb(209, 136, 1);
@@ -187,7 +252,7 @@
 }
 .img-gallery img{
     height: 18vw;
-    width: 20vw;
+    width: 23vw;
     border: 2px solid black;
     border-radius: 20px;
 }
