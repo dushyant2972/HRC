@@ -1,0 +1,79 @@
+.teacher-card .teacher-info{
+    display: inline-block;
+}
+
+table{
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.teacher-card img{
+    height: 130px;
+    width: 120px;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.teacher-card{
+    display: inline-block;
+    padding: 6px;
+    width: 31vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgb(167, 162, 162) 3px 3px 10px 5px;
+    margin: 8px;
+}
+
+.teacher-card:hover{
+    transform: scale(1.02);
+}
+
+.teacher-card .teacher-info{
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+    font-size: 1.6vw;
+}
+
+.faculty>h4{
+    padding: 10px;
+    background-color: rgb(79, 135, 255);
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    font-size: 2.5vw;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.faculty{
+    margin-top: 1.5vw;
+}
+
+.teacher-card h5{
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+#mukund{
+    left: 25px;
+}
+
+#arvind{
+    bottom: 20px;
+}
+
+#brij{
+    left: 20px;
+}
+
+#ram{
+    left: 22px;
+}
+
+#amita{
+    left: 20px;
+}
+
+.desig{
+    font-style: italic;
+    font-weight: 500;
+}

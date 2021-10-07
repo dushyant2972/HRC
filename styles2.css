@@ -1,0 +1,98 @@
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4.7vw;
+}
+
+.subNavbar{
+    margin: 1vw 3vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: rgb(165, 164, 164) 3px 3px 9px 7px;
+    background-color: rgb(78, 255, 78);
+    height: 26vw;
+}
+.subNavbar h4{
+    padding: 5px;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;
+    font-size: 2.5vw;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.subNavbar ul{
+    list-style: none;
+}
+
+.subNavbar ul li a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: cursive, sans-serif;
+    font-weight: 600;
+}
+
+.subNavbar ul li{
+    padding: 8px;
+    background-color: rgb(238, 238, 77);
+    margin: 5px 0px;
+    font-size: 1.5vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 3.5vw;
+}
+
+.subNavbar ul li:hover a{
+    text-decoration: underline;
+}
+.subNavbar ul li:hover{
+    background-color: rgb(115, 140, 255);
+    cursor: pointer;
+}
+
+
+.about{
+    margin: 10px 5px;
+    width: 65vw;
+    background-color: rgb(240, 238, 238);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.3vw;
+    box-shadow: rgb(167, 165, 165) 3px 3px 8px 8px;
+}
+.about h4{
+    padding: 5px;
+    background-color: rgb(79, 135, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 2.5vw;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about img{
+    width: 100%;
+    margin: 5px 1px;
+}
+
+.about p{
+    font-size: 1.33vw;
+    font-family: Tahoma, sans-serif;
+    text-align: justify;
+    padding: 1vw 1.7vw;
+}
+
+.toppest-div .toppest li a{
+    font-size: 18px;
+}
+.gallery-head{
+    font-size: 32px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.foot p{
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
