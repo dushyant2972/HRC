@@ -77,3 +77,13 @@ table{
     font-style: italic;
     font-weight: 500;
 }
+
+.teacher-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.teacher-info a:hover{
+    text-decoration: underline;
+    color: blue;
+}
